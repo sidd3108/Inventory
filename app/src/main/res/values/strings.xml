@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">INVENTORY</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="augscan">augScan</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome">Welcome</string>
+    <string name="add_product">Add Product</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="view_product">View Product</string>
+    <string name="view_inventory">View Inventory</string>
+    <string name="rs">Rs</string>
+    <string name="product_details">Product Details</string>
+    <string name="product">Product</string>
+    <string name="name">Name</string>
+    <string name="category">Category -</string>
+    <string name="category1">Category</string>
+    <string name="price">Price - </string>
+    <string name="number">Number</string>
+    <string name="add_item">Add Item</string>
+    <string name="item_name">Item Name:</string>
+    <string name="item_category">Item Category:</string>
+    <string name="item_price">Item Price:</string>
+    <string name="view_items">View Items</string>
+    <string name="search_items">Search Items</string>
+    <string name="search">Search</string>
+    <string name="item_name2">Item Name</string>
+    <string name="textview">TextView</string>
+    <string name="item_price2">Item Price</string>
+    <string name="textview3">TextView</string>
+    <string name="item_category3">Item Category</string>
+    <string name="textview5">TextView</string>
+    <string name="no_of_items">No of Items =</string>
+    <string name="_0">0</string>
+    <string name="total_sum">Total sum = ₹</string>
+    <string name="_00">0</string>
+    <string name="welcome5">Welcome!</string>
+    <string name="don_t_have_an_account">Don\'t Have an account.</string>
+    <string name="register_here">Register Here.</string>
+    <string name="email_id">Email-Id</string>
+    <string name="password">Password</string>
+    <string name="forgot_password5">Forgot Password ?</string>
+    <string name="login5">Login</string>
+    <string name="email_id5">Email-Id</string>
+    <string name="password5">Password</string>
+    <string name="confirm_password5">Confirm Password</string>
+    <string name="register5">Register</string>
+    <string name="already_a_member">Already a member ?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_id6">Email-ID</string>
+    <string name="back_to">Back to</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="product_name">Product Name -</string>
+    <string name="barcode">Barcode -</string>
+    <string name="bar_code_number">Bar Code Number</string>
+    <string name="scan_bar_code">Scan Bar Code</string>
+    <string name="title_activity_scan_bar_code_button">scan_bar_code_button</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="barcode45">Barcode :</string>
+
+    <string name="OpenDrawer"> Open navigation drawer</string>
+    <string name="Close_Drawer">Close navigation drawer </string>
+    <string name="Join">You do not have to be a software developer to be a member of the Inventory team. You can join the national teams that translate program interfaces. You can provide graphics, themes, sounds, and improved documentation. You decide!
+
+Visit Our website and Involved for information on some projects in which you can participate.
+
+If you need more information or documentation, then a visit to our website will provide you with what you need. </string>
+    <string name="Bug">Software can always be improved, and the Inventory team is ready to do so. However, you - the user- must tell us when something does not work as expected or could be done better.
+
+Inventory has a bug tracking system. use the "Report Bug" button from the about screen to report bugs.
+
+If you have a suggestion for improvement then you are welcome to use the bug tracking system to register your wish. Make sure you use the severity called "Wishlist". </string>
+    <string name="About">An inventory management system for small businesses is a software or set of procedures designed to efficiently monitor, track, and control inventory levels. It helps small businesses optimize their stock levels, streamline operations, and improve overall efficiency. The system typically includes features such as inventory tracking, order management, demand forecasting, and reporting capabilities. It allows businesses to know the quantity and location of each item in real-time, automate reordering processes, and generate insights for better decision-making. By implementing an inventory management system, small businesses can reduce costs associated with excess inventory or stockouts, improve customer satisfaction through timely order fulfillment, and gain better visibility into their inventory performance.</string>
+    <string name="todo1">TODO</string>
+    <string name="about_this_app">About This app</string>
+    <string name="about">About</string>
+    <string name="report_bugs">Report Bugs</string>
+    <string name="join_us">Join Us</string>
+    <string name="inventory_management">Inventory Management</string>
+    <string name="version">Version</string>
+    <string name="verion">verion</string>
+    <string name="bug_report">Bug Report</string>
+    <string name="source_code">Source Code</string>
+    <string name="about1">About</string>
+    <string name="java_developer">- Java Developer</string>
+    <string name="siddharth_singh">Siddharth Singh</string>
+</resources>

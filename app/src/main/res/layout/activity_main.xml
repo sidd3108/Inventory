@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="35sp"
+        android:layout_marginBottom="-106dp"
+        android:fontFamily="@font/alatsi"
+        android:text="@string/welcome5"
+        android:textColor="#FFFFFF"
+        android:textSize="53sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/LoginButtonMain"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="-70dp"
+        android:layout_marginStart="34dp"
+        android:background="@drawable/button_shape"
+        android:hint="@string/login"
+        android:onClick="login"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColorHint="#ffff"
+        android:textSize="25sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="@string/don_t_have_an_account"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="14dp"
+        android:onClick="register"
+        android:text="@string/register_here"
+        android:textColor="@color/colorAccent_login"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+</RelativeLayout>
