@@ -76,7 +76,7 @@ public class About_us extends AppCompatActivity {
     }
 
     private void goToUrl() {
-        Uri uri = Uri.parse("https://github.com/");
+        Uri uri = Uri.parse("https://github.com/ANIKETH232323");
         startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
 
