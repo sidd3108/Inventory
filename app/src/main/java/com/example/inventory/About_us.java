@@ -48,7 +48,7 @@ public class About_us extends AppCompatActivity {
 
         relativeLayout1.setOnClickListener(v -> sendMail());
 
-        relativeLayout2.setOnClickListener(v -> goToUrl("https://github.com/"));
+        relativeLayout2.setOnClickListener(v -> goToUrl());
 
         relativeLayout3.setOnClickListener(v ->
                 Toast.makeText(this, "The Website is not ready yet,We are working on It", Toast.LENGTH_SHORT).show());
@@ -75,8 +75,8 @@ public class About_us extends AppCompatActivity {
         tvVersionName.setText(myVersionName);
     }
 
-    private void goToUrl(String s) {
-        Uri uri = Uri.parse(s);
+    private void goToUrl() {
+        Uri uri = Uri.parse("https://github.com/");
         startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
 
