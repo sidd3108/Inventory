@@ -20,10 +20,6 @@ import com.google.firebase.auth.FirebaseUser;
 import java.util.Objects;
 
 public class Dashboard_Activity extends AppCompatActivity {
-
-
-
-
     FirebaseAuth mAuth;
     FirebaseUser muser;
 
@@ -32,8 +28,6 @@ public class Dashboard_Activity extends AppCompatActivity {
     Toolbar toolbar;
 
      String nam;
-
-
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,9 +51,6 @@ public class Dashboard_Activity extends AppCompatActivity {
         toolbar =  findViewById(R.id.toolbar_dash);
 
         nam = getIntent().getStringExtra("gmail");
-
-
-
 
 
 /*/       assert muser != null;

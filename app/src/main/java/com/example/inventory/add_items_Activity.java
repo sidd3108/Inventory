@@ -95,11 +95,8 @@ public class add_items_Activity extends AppCompatActivity {
             sign_out();
             finish();
         }
-
-
         return super.onOptionsItemSelected(item);
     }
-
     private void sign_out() {
         Intent intent = new Intent(this, LoginActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
