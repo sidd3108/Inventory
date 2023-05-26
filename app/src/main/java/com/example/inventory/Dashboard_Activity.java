@@ -33,15 +33,8 @@ public class Dashboard_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
-
-
-
         mAuth =FirebaseAuth.getInstance();
         muser = mAuth.getCurrentUser();
-
-
-
-
 
         add_items = findViewById(R.id.addItems);
         delete_items =  findViewById(R.id.deleteItems);
@@ -66,12 +59,6 @@ public class Dashboard_Activity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setHomeButtonEnabled(true);
         getSupportActionBar().setTitle(null);
 
-
-
-
-
-
-
         add_items.setOnClickListener(view -> {
             Intent intent = new Intent(Dashboard_Activity.this,add_items_Activity.class);
             startActivity(intent);
@@ -92,9 +79,6 @@ public class Dashboard_Activity extends AppCompatActivity {
             Intent intent = new Intent(Dashboard_Activity.this,About_us.class);
             startActivity(intent);
         });
-
-
-
     }
 
     @Override
