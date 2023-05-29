@@ -77,7 +77,6 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()){
 
 
-
                             progressDialog.dismiss();
                             Intent intent = new Intent(LoginActivity.this,Dashboard_Activity.class);
                              String gm = editTextEmail.getText().toString();
