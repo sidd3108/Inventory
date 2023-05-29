@@ -79,7 +79,6 @@ public class LoginActivity extends AppCompatActivity {
 
 
                             progressDialog.dismiss();
-
                             Intent intent = new Intent(LoginActivity.this,Dashboard_Activity.class);
                              String gm = editTextEmail.getText().toString();
                              intent.putExtra("gmail",gm);
