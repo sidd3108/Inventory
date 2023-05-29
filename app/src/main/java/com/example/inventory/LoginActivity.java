@@ -76,7 +76,6 @@ public class LoginActivity extends AppCompatActivity {
                     mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(task -> {
                         if (task.isSuccessful()){
 
-
                             progressDialog.dismiss();
                             Intent intent = new Intent(LoginActivity.this,Dashboard_Activity.class);
                              String gm = editTextEmail.getText().toString();
