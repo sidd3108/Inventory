@@ -52,7 +52,6 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 login_to_next_activity();
         }
-
             private void login_to_next_activity() {
                 String email = Objects.requireNonNull(editTextEmail.getText()).toString();
                 String password = Objects.requireNonNull(editTextPassword.getText()).toString().trim();
@@ -82,14 +81,11 @@ public class LoginActivity extends AppCompatActivity {
                             progressDialog.dismiss();
 
                             Intent intent = new Intent(LoginActivity.this,Dashboard_Activity.class);
-
                              String gm = editTextEmail.getText().toString();
                              intent.putExtra("gmail",gm);
                              intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
                              startActivity(intent);
                              finish();
-
-
                             Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                         }
                         else
