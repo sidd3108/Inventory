@@ -21,14 +21,11 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         TextInputEditText editTextEmail, editTextPassword;
         TextView forgot_password;
         ProgressDialog progressDialog;
         Button login;
-
         FirebaseAuth mAuth;
-
 
         String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
@@ -41,7 +38,6 @@ public class LoginActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(this);
         mAuth =FirebaseAuth.getInstance();
         mAuth.getCurrentUser();
-
 
 
         forgot_password.setOnClickListener(view -> {
