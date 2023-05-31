@@ -18,7 +18,6 @@ public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostVi
     public My_Adapter(@NonNull FirebaseRecyclerOptions<User> options) {
         super(options);
     }
-
     @Override
     protected void onBindViewHolder(@NonNull PostViewHolder holder,final int position, @NonNull final User model) {
             holder.items_name.setText(model.getProduct_name());
