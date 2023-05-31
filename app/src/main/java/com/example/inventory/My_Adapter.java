@@ -53,7 +53,6 @@ public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostVi
         ImageView delete;
         public PostViewHolder(@NonNull View itemView) {
             super(itemView);
-
             items_name = itemView.findViewById(R.id.item_name);
             items_category = itemView.findViewById(R.id.item_category);
             items_price = itemView.findViewById(R.id.item_price);
