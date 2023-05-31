@@ -14,7 +14,6 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 
-
 public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostViewHolder> {
 
     public My_Adapter(@NonNull FirebaseRecyclerOptions<User> options) {
