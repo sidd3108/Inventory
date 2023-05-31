@@ -50,7 +50,7 @@ public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostVi
     }
     static class PostViewHolder extends RecyclerView.ViewHolder{
         TextView items_name,items_category,items_price,itembarcode;
-                ImageView delete;
+        ImageView delete;
         public PostViewHolder(@NonNull View itemView) {
             super(itemView);
 
