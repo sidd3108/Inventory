@@ -34,7 +34,6 @@ public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostVi
                     assert key != null;
                     FirebaseDatabase.getInstance().getReference().child("User")
                             .child(key).removeValue().addOnCompleteListener(task -> {
-
                             });
                 });
                 builder.setNegativeButton("No", (dialogInterface, i) -> {
