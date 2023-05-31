@@ -41,7 +41,6 @@ public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostVi
                 builder.show();
             });
     }
-
     @NonNull
     @Override
     public PostViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
