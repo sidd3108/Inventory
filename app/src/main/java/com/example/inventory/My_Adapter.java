@@ -48,7 +48,6 @@ public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostVi
                 inflate(R.layout.item_delete_list,parent,false);
         return new PostViewHolder(v);
     }
-
     static class PostViewHolder extends RecyclerView.ViewHolder{
         TextView items_name,items_category,items_price,itembarcode;
                 ImageView delete;
