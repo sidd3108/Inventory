@@ -25,7 +25,6 @@ public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostVi
             holder.items_category.setText(model.getCategory());
             holder.items_price.setText(model.getPrice());
             holder.itembarcode.setText(model.getItembarcode());
-
             String key = getRef(position).getKey();
             holder.delete.setOnClickListener(view -> {
 
