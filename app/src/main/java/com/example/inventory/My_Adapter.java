@@ -39,8 +39,6 @@ public  class My_Adapter extends FirebaseRecyclerAdapter<User, My_Adapter.PostVi
                 builder.setNegativeButton("No", (dialogInterface, i) -> {
                 });
                 builder.show();
-
-
             });
     }
 
