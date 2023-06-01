@@ -20,7 +20,6 @@ public class User {
     public String getCategory() {
         return category;
     }
-
     public String getPrice() {
         return price;
     }
