@@ -1,5 +1,6 @@
 # Inventory-Managment-App-Android-
 This software maintains products by entering information such as name, product id, buy rate, and product description. 
+
 # Screen Shot
 ![image](https://github.com/ANIKETH232323/Inventory-Managment-App-Android-/assets/102458123/9e889519-12d4-4b7d-be01-7ad4e8d304ec)
 
