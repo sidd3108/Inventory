@@ -11,7 +11,6 @@ public class User {
         this.price = price;
         this.itembarcode = itembarcode;
     }
-
     public String getItembarcode() {
         return itembarcode;
     }
