@@ -14,7 +14,6 @@ public class User {
     public String getItembarcode() {
         return itembarcode;
     }
-
     public String getProduct_name() {
         return product_name;
     }
