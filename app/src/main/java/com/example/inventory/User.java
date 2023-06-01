@@ -17,7 +17,6 @@ public class User {
     public String getProduct_name() {
         return product_name;
     }
-
     public String getCategory() {
         return category;
     }
