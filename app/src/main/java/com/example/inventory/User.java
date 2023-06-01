@@ -5,7 +5,6 @@ public class User {
 
     public User() {
     }
-
     public User(String product_name, String category, String price,String itembarcode) {
 
         this.product_name = product_name;
