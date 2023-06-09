@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".RegisterActivity">
 
-
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -189,6 +188,5 @@
         android:background="@drawable/button_shape"
         android:text="@string/scan_bar_code"
         tools:ignore="VisualLintButtonSize" />
-
 
 </RelativeLayout>
