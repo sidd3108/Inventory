@@ -210,7 +210,6 @@
                 android:src="@drawable/duke_java_mascot"
                 android:importantForAccessibility="no" />
 
-
         </LinearLayout>
     </ScrollView>
 
