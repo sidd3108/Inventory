@@ -104,7 +104,6 @@
                         android:textColor="#ffff"
                         tools:ignore="VisualLintLongText" />
 
-
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
