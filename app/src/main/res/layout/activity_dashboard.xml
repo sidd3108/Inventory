@@ -69,7 +69,6 @@
             android:textSize="17sp"
             android:textStyle="bold" />
 
-
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -85,7 +84,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextSizeCheck">
 
-
         <ImageView
             android:layout_width="85dp"
             android:layout_height="85dp"
@@ -93,7 +91,6 @@
             android:background="@drawable/circlebackgroundyellow"
             android:src="@drawable/ic_delete_black_24dp"
             tools:ignore="ContentDescription,ImageContrastCheck" />
-
 
         <TextView
             android:layout_width="wrap_content"
@@ -107,7 +104,6 @@
 
     </androidx.cardview.widget.CardView>
 
-
     <androidx.cardview.widget.CardView
         android:id="@+id/viewInventory"
         android:layout_width="144dp"
@@ -115,7 +111,6 @@
         android:layout_gravity="bottom"
         app:cardCornerRadius="28dp"
         app:cardElevation="18dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/deleteItems"
         app:layout_constraintHorizontal_bias="0.0"
