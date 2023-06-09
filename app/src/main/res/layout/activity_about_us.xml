@@ -201,7 +201,6 @@
             android:textStyle="bold"
             tools:ignore="TextSizeCheck" />
 
-
     </RelativeLayout>
 
     <RelativeLayout
