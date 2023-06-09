@@ -143,7 +143,6 @@
                         android:textStyle="bold"
                         tools:ignore="TextSizeCheck" />
 
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
