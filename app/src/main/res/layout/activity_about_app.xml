@@ -152,7 +152,6 @@
                         android:textColor="#ffff"
                         tools:ignore="VisualLintLongText" />
 
-
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
