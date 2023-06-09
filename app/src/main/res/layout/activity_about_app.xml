@@ -47,7 +47,6 @@
             app:layout_constraintTop_toTopOf="@+id/imageView"
             tools:ignore="TextSizeCheck" />
 
-
     </LinearLayout>
 
 
